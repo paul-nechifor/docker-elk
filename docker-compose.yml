@@ -31,6 +31,16 @@ services:
       - docker_elk
     depends_on:
       - elasticsearch
+  pythonlogstash:
+    build: python-logstash-example/
+    volumes:
+      - ./python-logstash-example/src:/app/src
+    ports:
+      - "3000:3000"
+    networks:
+      - docker_elk
+    depends_on:
+      - logstash
 
 networks:
   docker_elk:
