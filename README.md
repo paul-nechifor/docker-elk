@@ -1,3 +1,7 @@
+# This repository has been moved to [gitlab.com/paul-nechifor/docker-elk](http://gitlab.com/paul-nechifor/docker-elk).
+
+Old readme:
+
 # Docker ELK stack (Python example)
 
 This is a fork of [Docker ELK stack][original] to which I added a small Django
